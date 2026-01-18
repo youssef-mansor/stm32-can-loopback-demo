@@ -1,0 +1,43 @@
+# ===== Build artifacts =====
+Debug/
+Release/
+build/
+*.elf
+*.map
+*.list
+*.hex
+*.bin
+*.axf
+*.o
+*.d
+*.su
+
+# ===== STM32CubeIDE / Eclipse =====
+.metadata/
+.settings/
+.project
+.cproject
+*.launch
+
+# ===== Generated make files =====
+makefile
+sources.mk
+objects.mk
+objects.list
+
+# ===== User-specific / IDE temp files =====
+*.log
+*.tmp
+*.swp
+*.bak
+*.orig
+
+# ===== OS-specific =====
+.DS_Store
+Thumbs.db
+
+# ===== Optional: ignore regenerated drivers =====
+# Comment these out if you want to track HAL/CMSIS explicitly
+Drivers/CMSIS/Device/
+Drivers/STM32L4xx_HAL_Driver/Src/
+Drivers/STM32L4xx_HAL_Driver/Inc/
